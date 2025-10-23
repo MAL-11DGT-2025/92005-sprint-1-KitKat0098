@@ -354,13 +354,13 @@ unique_name_in_owner = true
 script = ExtResource("1_u5sy4")
 
 [node name="Score" type="Label" parent="."]
-offset_left = 249.0
-offset_top = -149.0
-offset_right = 411.0
-offset_bottom = -126.0
+offset_left = 252.0
+offset_top = -153.0
+offset_right = 435.0
+offset_bottom = -130.0
 theme_override_fonts/font = ExtResource("6_p57ef")
 theme_override_font_sizes/font_size = 8
-text = "You collected X out of 9  coins"
+text = "You collected 0 out of 9 coins"
 horizontal_alignment = 1
 
 [node name="player" parent="." instance=ExtResource("1_uwrxv")]
@@ -494,10 +494,10 @@ theme_override_font_sizes/font_size = 8
 text = "The Bible is an anthology (a compilation of texts of a variety of forms)"
 
 [node name="Label5" type="Label" parent="Label"]
-offset_left = 315.0
+offset_left = 287.0
 offset_top = -166.0
-offset_right = 355.0
+offset_right = 397.0
 offset_bottom = -143.0
 theme_override_fonts/font = ExtResource("6_p57ef")
 theme_override_font_sizes/font_size = 8
-text = "Slay!"
+text = "Slay! You made it!"
