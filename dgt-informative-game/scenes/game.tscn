@@ -281,14 +281,15 @@ tracks/0/path = NodePath(".:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0, 0.001),
+"transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(2, -102)]
+"values": [Vector2(2, -102), Vector2(266, -86)]
 }
 
 [sub_resource type="Animation" id="Animation_u5sy4"]
 resource_name = "mover"
+length = 2.0
 loop_mode = 2
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -297,10 +298,10 @@ tracks/0/path = NodePath(".:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
+"times": PackedFloat32Array(0, 1.96667),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(2, -102), Vector2(263, -90)]
+"values": [Vector2(-13, -121), Vector2(263, -90)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_0tnpc"]
@@ -353,13 +354,13 @@ unique_name_in_owner = true
 script = ExtResource("1_u5sy4")
 
 [node name="Score" type="Label" parent="."]
-offset_left = 29.0
-offset_top = -58.0
-offset_right = 191.0
-offset_bottom = -35.0
+offset_left = 249.0
+offset_top = -149.0
+offset_right = 411.0
+offset_bottom = -126.0
 theme_override_fonts/font = ExtResource("6_p57ef")
 theme_override_font_sizes/font_size = 8
-text = "You collected X coins"
+text = "You collected X out of 9  coins"
 horizontal_alignment = 1
 
 [node name="player" parent="." instance=ExtResource("1_uwrxv")]
